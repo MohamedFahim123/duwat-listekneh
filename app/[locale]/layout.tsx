@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `/${locale}/home`,
       languages: {
         en: "/en",
         ar: "/ar",
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `${baseUrl}/${locale}`,
+      url: `${baseUrl}/${locale}/home`,
       siteName: "Duwat Lstikneh",
       locale: isArabic ? "ar_AE" : "en_US",
       type: "website",
