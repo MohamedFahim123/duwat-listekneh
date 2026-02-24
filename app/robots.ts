@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/"
     },
-    sitemap: "https://duwatlstikneh.ae/sitemap.xml"
+    sitemap: "https://duwat-listekneh.vercel.app/sitemap.xml"
   };
 }
