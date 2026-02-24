@@ -1,0 +1,143 @@
+{
+  "heroTitle": "Duwat Lstikneh",
+  "heroDesc": "Emirati café comfort — fresh, warm, and made with care.",
+  "orderOnline": "Order in seconds",
+  "aboutTitle": "A place for simple Emirati comfort",
+  "contactTitle": "Need help with an order or inquiry?",
+  "callNow": "Call Now",
+  "whatsapp": "WhatsApp Us",
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you’re looking for doesn’t exist or has been moved.",
+    "button": "Back to Home"
+  },
+  "navbar": {
+    "order": "Order",
+    "title": "Duwat Lstikneh"
+  },
+  "orderModal": {
+    "title": "Order Now",
+    "subtitle": "Choose your preferred ordering method.",
+    "tip": "Tip: WhatsApp is the fastest.",
+    "close": "Close",
+    "ways": {
+      "talabat": {
+        "label": "Talabat",
+        "subLabel": "Order via Talabat"
+      },
+      "careem": {
+        "label": "Careem",
+        "subLabel": "Order via Careem"
+      },
+      "keeta": {
+        "label": "Keeta",
+        "subLabel": "Order via Keeta"
+      }
+    }
+  },
+  "hero": {
+    "title": "Duwat Lstikneh",
+    "description": "Emirati café comfort — fresh, warm, and made with care.",
+    "orderNow": "ORDER NOW",
+    "viewMenu": "View Menu",
+    "whatsapp": "WhatsApp",
+    "note": "* Delivery times may vary depending on location and platform."
+  },
+  "orderSection": {
+    "title": "Order in seconds",
+    "description": "Choose your favorite delivery platform and enjoy our authentic Emirati cuisine at home",
+    "ways": {
+      "talabat": {
+        "label": "Talabat"
+      },
+      "careem": {
+        "label": "Careem"
+      },
+      "keeta": {
+        "label": "Keeta"
+      }
+    }
+  },
+  "signature": {
+    "title": "Signature Favorites",
+    "items": {
+      "arabicCoffee": {
+        "title": "Traditional Arabic Coffee",
+        "desc": "Freshly brewed with cardamom and saffron."
+      },
+      "datesSelection": {
+        "title": "Fresh Dates Selection",
+        "desc": "Premium Medjool dates with Arabic coffee."
+      },
+      "traditionalPastries": {
+        "title": "Traditional Pastries",
+        "desc": "Handcrafted Arabic sweets and desserts."
+      },
+      "mintTea": {
+        "title": "Mint Tea",
+        "desc": "Aromatic fresh mint leaves with premium tea."
+      },
+      "emiratiBreakfast": {
+        "title": "Emirati Breakfast",
+        "desc": "Traditional morning dishes made fresh daily."
+      },
+      "viewFullMenu": {
+        "button": "View Full Menu"
+      }
+    }
+  },
+  "about": {
+    "title": "A place for simple Emirati comfort",
+    "p1": "At Duwat Lstikneh, we honor the timeless traditions of Emirati hospitality. Every cup of coffee, every pastry, and every moment shared in our space reflects our commitment to authenticity and warmth.",
+    "p2": "From traditional Arabic coffee served with dates to our carefully curated selection of Emirati breakfast classics, we bring you the flavors that define home."
+  },
+  "branches": {
+    "title": "Our Branches",
+    "openMap": "Open in Google Maps",
+    "items": {
+      "khorfakkan": {
+        "name": "Sharjah, Khor Fakkan",
+        "location": "",
+        "hours": "All Week: 7:00 AM - 02:00 AM",
+        "href": "https://maps.app.goo.gl/R9PctAqQFk4ZjkraA",
+        "phone": "+971569877892"
+      },
+      "dibbafujairah": {
+        "name": "Fujairah, Dibba Al Fujairah",
+        "location": "",
+        "hours": "All Week: 7:00 AM - 02:00 AM",
+        "href": "https://maps.app.goo.gl/UkyYacwZ9dmYZTnC7",
+        "phone": "+971544216114"
+      },
+      "dibbahisn": {
+        "name": "Sharjah, Dibba Al Hisn",
+        "location": "",
+        "hours": "All Week: 7:00 AM - 02:00 AM",
+        "href": "https://maps.app.goo.gl/Z9jCFUn5igHo1xGj6?g_st=iw",
+        "phone": ""
+      }
+    }
+  },
+  "help": {
+    "title": "Need help with an order?",
+    "phone": "Phone:",
+    "whatsapp": "WhatsApp:",
+    "instagram": "Instagram:",
+    "call": "Call Now",
+    "whatsappBtn": "WhatsApp",
+    "instagramBtn": "Instagram"
+  },
+  "footer": {
+    "title": "Duwat Lstikneh",
+    "tagline": "Emirati Café & Restaurant",
+    "order": "ORDER",
+    "menu": "MENU",
+    "viewMenu": "View Full Menu",
+    "contact": "CONTACT",
+    "rights": "All rights reserved.",
+    "instagram": "Instagram",
+    "talabat": "Talabat",
+    "careem": "Careem",
+    "keeta": "Keeta"
+  }
+}
