@@ -14,5 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/ar`,
       lastModified: now,
     },
+    {
+      url: `${siteUrl}/en/home`,
+      lastModified: now,
+    },
+    {
+      url: `${siteUrl}/ar/home`,
+      lastModified: now,
+    },
   ];
 }
