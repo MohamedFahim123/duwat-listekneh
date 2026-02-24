@@ -18,20 +18,20 @@ export const ORDER_WAYS: ORDER_WAY[] = [
     },
     variant: "primary",
   },
-  {
-    key: "careem",
-    iconSrc: "/images/logos/careem.webp",
-    href: {
-      en: "https://www.careem.com/",
-      ar: "https://www.careem.com/ar-ae/",
-    },
-  },
-  {
-    key: "keeta",
-    iconSrc: "/images/logos/keeta.webp",
-    href: {
-      en: "https://www.keeta.com/",
-      ar: "https://www.keeta.com/ar/",
-    },
-  },
+  // {
+  //   key: "careem",
+  //   iconSrc: "/images/logos/careem.webp",
+  //   href: {
+  //     en: "https://www.careem.com/",
+  //     ar: "https://www.careem.com/ar-ae/",
+  //   },
+  // },
+  // {
+  //   key: "keeta",
+  //   iconSrc: "/images/logos/keeta.webp",
+  //   href: {
+  //     en: "https://www.keeta.com/",
+  //     ar: "https://www.keeta.com/ar/",
+  //   },
+  // },
 ];

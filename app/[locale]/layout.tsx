@@ -32,10 +32,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const description = isArabic
     ? "قهوة ومذاق إماراتي دافئ — طازج، لذيذ، وبعناية. اطلب الآن عبر طلبات وكريم وكيتا."
-    : "Emirati café comfort — fresh, warm, and made with care. Order now via Talabat, Careem, or Keeta.";
+    : "Emirati café comfort — fresh, warm, and made with care. Order now via Talabat.";
+
+  const baseUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://duwat-listekneh.vercel.app";
 
   return {
-    metadataBase: new URL("https://duwatlstikneh.ae"),
+    metadataBase: new URL(baseUrl),
     title,
     description,
     alternates: {
@@ -48,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://duwatlstikneh.ae/${locale}`,
+      url: `${baseUrl}/${locale}`,
       siteName: "Duwat Lstikneh",
       locale: isArabic ? "ar_AE" : "en_US",
       type: "website",

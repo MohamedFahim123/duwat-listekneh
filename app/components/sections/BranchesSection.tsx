@@ -76,6 +76,23 @@ export default function BranchesSection({ locale }: { locale: string }) {
                   )}
                 </p>
 
+                <p className="mt-3 text-sm text-white/60">
+                  {t(`items.${branch.key}.phone`) ? (
+                    <>
+                      {locale === "ar" ? "واتساب:" : "WhatsApp:"}{" "}
+                      <Link
+                        href={`https://wa.me/${t(`items.${branch.key}.phone`)}`}
+                        className="underline"
+                        target="_blank"
+                      >
+                        {t(`items.${branch.key}.phone`)}
+                      </Link>
+                    </>
+                  ) : (
+                    <span className="text-white/40">{locale === "ar" ? "لا يوجد رقم واتساب متاح" : "No WhatsApp number available"}</span>
+                  )}
+                </p>
+
                 <p className="mt-2 text-sm text-white/60">
                   {t(`items.${branch.key}.hours`)}
                 </p>

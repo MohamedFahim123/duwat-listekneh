@@ -32,21 +32,21 @@ export default function Footer() {
           <div>
             <h3 className="text-md font-semibold mb-4">{t("order")}</h3>
             <ul className="space-y-2 text-sm text-white/60">
-              <li>
+              {/* <li>
                 <Link href={SETTINGS.careemUrl} target="_blank">
                   {t("careem")}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href={SETTINGS.talabatUrl} target="_blank">
                   {t("talabat")}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href={SETTINGS.keetaUrl} target="_blank">
                   {t("keeta")}
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 

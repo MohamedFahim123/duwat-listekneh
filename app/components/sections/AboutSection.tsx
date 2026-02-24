@@ -13,7 +13,7 @@ export default function AboutSection() {
 
   return (
     <Section className="bg-[#f3f3f3] py-20">
-      <Container>
+      <Container className="overflow-hidden">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: isRTL ? 40 : -40 }}

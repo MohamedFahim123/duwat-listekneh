@@ -52,8 +52,8 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-3">
               <OrderPill label="Talabat" icon="/images/logos/talabat.webp" />
-              <OrderPill label="Careem" icon="/images/logos/careem.webp" />
-              <OrderPill label="Keeta" icon="/images/logos/keeta.webp" />
+              {/* <OrderPill label="Careem" icon="/images/logos/careem.webp" /> */}
+              {/* <OrderPill label="Keeta" icon="/images/logos/keeta.webp" /> */}
             </div>
           </div>
 
