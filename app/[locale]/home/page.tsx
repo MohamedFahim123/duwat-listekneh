@@ -5,14 +5,20 @@ import Hero from "@/app/components/sections/Hero";
 import OrderSection from "@/app/components/sections/OrderSection";
 import SignatureSection from "@/app/components/sections/SignatureSection";
 
-export default function HomePage({ locale }: { locale: string }) {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale: currentLocale } = await params;
+
   return (
     <>
       <Hero />
-      <OrderSection locale={locale} />
+      <OrderSection locale={currentLocale} />
       <SignatureSection />
       <AboutSection />
-      <BranchesSection locale={locale} />
+      <BranchesSection locale={currentLocale} />
       <HelpSection />
     </>
   );

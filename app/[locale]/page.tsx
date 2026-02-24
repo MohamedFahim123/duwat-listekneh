@@ -1,10 +1,7 @@
-import HomePage from "./home/page";
+import { redirect } from "next/navigation";
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+export default async function Home({params}: {params: Promise<{locale: string}>}) {
   const { locale } = await params;
-  return <HomePage locale={locale} />;
+
+  redirect(`/${locale}/home`);
 }
